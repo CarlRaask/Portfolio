@@ -84,17 +84,20 @@ rot_asym
 
 Where rot_asym consisted of taking the absolute difference between rot_l and rot_r
 
-
-### TODO Finish bootstrapping and tree notes
+### Bootstrapping on regression
 I also did some bootstrapping to try and add some mild statistical rigour to the results.  
-** Finish bootstrap on different models  **
+In short. Model as a whole seemed to produce fairly consistent R² results across bootstraps.  
+But individual slopes were all over the place and should not be trusted.  
+
+And if you put your sports scientist or table tennis hat on you reaalise that defensive players might benefit more from leg endurance and offensive players probably benefit more from rotational and tricep strength. 
 
 
-
-
-Same with the shallow decision tree (n_nodes=3) Overfitting warning but gave some very interesting results based on arm strength.  
-
-
+## Decision Tree
+I did a max_depth=2 decision tree as well.  
+First split on tricep strength was in line with regression model and showed both a statistically significant and meaningful difference in ranking. We might be looking at a threshold level of strength needed for fast forehands here.  
+The second spliting the False branch with rotational asymetry was also both statistically significant and showed a meaningful difference in ranking. Possibly a threshold thing here too.  
+Second split in True branch on deadlift strength had too few samples to show any significance and the splitting showed weaker players performing better.  
+I think that effect was due to chance rather than something real. Im fully onboard with the idea that Table Tennis players should not become specialized powerlifters, but I think there is room for strength improvement. After a couple of rounds of testing we might find some threshold values. I don't know.
 
 
 ## **For sports scientists and trainers** 
