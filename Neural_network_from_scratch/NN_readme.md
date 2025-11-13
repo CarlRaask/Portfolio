@@ -1,11 +1,11 @@
 # Homebuilt neural network
-## Calculus term 2 year 1s
+## Calculus year 1 term 2 of Applied AI for machine learning university program
 ### Summary
 A flexible neural network built from the ground up using only NumPy and multivariate calculus.  
 Teacher assistant said "Use MNIST if you are brave". So I decided to be brave.
 Goal was to achieve 90%+ accuracy on MNIST digit classification, matching late 1990s pre-CNN neural network performance.  
 **note from the future**  I had actually never heard of Neural Networks before calculus class.  
-Some of my "lessons" are sortof correct but lacking.  
+Some of my "lessons" are sort of correct but lacking.  
 Im leaving them as is to reflect the knowledge of a first year undergraduate who went *slightly* overboard and went outside expected level of knowledge.  
 
 ### Final project of calculus class 
@@ -45,7 +45,7 @@ Comparable to research-level performance from the late 1990s
 ### Key Learnings
 Data scaling is critical: Gradient stability improved dramatically with StandardScaler/MinMaxScaler  
 Dataset size matters: Increasing from 500 to 3000 samples made visualizations match reality even when loss was already low.  
-This is a conventient sollution for synthetic data (as in this function approximation) but sadly not available to us in real life.  
+This is a convenient solution for synthetic data (as in this function approximation) but sadly not available to us in real life.  
 
 Architecture choices have tradeoffs:  
 *Deeper networks capture oscillations better but risk gradient issues   
